@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan (actualizado)",
+      "empresa": "Codigo Con Juan",
+      "email": "juan@juan.com",
+      "telefono": "102013313",
+      "notas": "audifonos",
+      "id": 1
+    }
+  ]
+}

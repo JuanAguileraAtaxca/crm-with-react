@@ -1,0 +1,28 @@
+
+label{font-weight: bold;}
+
+input, textarea{
+    width: 100%; 
+    outline: none;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+  
+textarea{
+    height: 80px;
+    resize: none;
+}
+
+.button-form{
+    color: white; 
+    background-color: var(--barra);
+    font-weight: bold;
+    width: 100%; 
+    border-radius: 6px; 
+}
+
+.button-form:hover{
+    background-color: #A138C1;
+}
+  

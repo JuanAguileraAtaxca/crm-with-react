@@ -1,0 +1,30 @@
+
+:root{
+    --thead: #761595; 
+}
+
+.clientes__h2{
+    font-weight: bold; 
+    font-size: 27px; 
+}
+
+.clientes__table{
+    width: 100%;  
+    border-spacing: 0px;
+}
+
+.clientes__table-thead{
+    background-color: var(--thead); 
+    color: var(--white);
+    font-weight: bold; 
+}
+
+.clientes__table tr td{
+    padding: 10px; 
+}
+
+.clientes__table-tbody tr{
+    background-color: var(--white);
+}
+
+

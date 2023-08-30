@@ -1,0 +1,77 @@
+
+:root{
+  --barra: #720E84; 
+  --bg-body: #EFEFEF; 
+  --white: white; 
+  --red: #D80F0F; 
+  --blue: #0411AA; 
+}
+
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: var(--bg-body);
+}
+
+.bg-white{background-color: var(--white);}
+
+.h-100vh{height: 100vh;}
+.w-70{width: 70%;}
+
+
+.gap-20{gap:20px; }
+
+.m-auto{margin:0 auto;}
+.m-20{margin: 20px;}
+.m-30{margin:30px;}
+.mt-5{margin-top:5px;}
+.mt-10{margin-top:10px;}
+.mt-15{margin-top:15px;}
+.mt-20{margin-top:20px;}
+.mt-30{margin-top: 30px;}
+.mt-40{margin-top:40px;}
+.mb-10{margin-bottom: 10px;}
+.mb-20{margin-bottom:20px;}
+
+.p-10{padding:10px;}
+.p-15{padding:15px;}
+.p-20{padding:20px;}
+.p-30{padding:30px;}
+
+.text-center{text-align: center; }
+.text-bold{font-weight: bold;}
+
+/*flex*/
+.flex{display: flex;}
+.justify-center{justify-content: center; }
+.justify-end{justify-content: flex-end ;}
+
+/*grid*/
+.grid{display: grid; }
+.place-center{place-items: center;}
+
+/*buttons*/
+button{
+  background-color: transparent;
+  border:none;
+}
+.red-color{color: var(--red)}
+.blue-color{color: var(--blue)}
+.bg-transparent{background-color: transparent;}
+.b-none{border: none;}
+
+.white-color:hover{color: var(--white)}
+.red-color:hover{background-color: var(--red);}
+.blue-color:hover{background-color: var(--blue);}
+
+.br-8{border-radius: 8px;}
+
+.border-top-1{border-top: 1px solid black;}
+
+
+
